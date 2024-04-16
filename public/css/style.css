@@ -1,0 +1,207 @@
+/* Apply a nice background color and center all the text */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+/* Center the container */
+.container {
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Prettify the paragraph */
+p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* Style the buttons */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    border: 2px solid #007bff; /* Blue border */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Add hover effect for buttons */
+a.button:hover {
+    background-color: white;
+    color: #007bff;
+    border-color: #0056b3; /* Darker blue border */
+}
+
+/* This is for any other additional button styles you might add */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green background */
+}
+
+/* Style the container for login and registration */
+.form-container {
+    text-align: center;
+    width: 100%;
+}
+
+/* Style the form */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #333; /* Black border for inputs */
+    border-radius: 5px;
+    width: 80%; /* You can adjust this as per your layout */
+}
+
+/* Bold the labels */
+label {
+    font-weight: bold;
+}
+
+/* Reuse button styles from the homepage for consistency */
+/* ... (existing button styles from the previous snippet) */
+
+/* Center align links for registration/login */
+.form-footer {
+    margin-top: 15px;
+}
+
+/* Additional container styling for centering content */
+.dashboard-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Centering the dashboard heading */
+.dashboard-heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style for the task list */
+#tasks {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for individual tasks */
+#tasks li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Style for the 'Add Task' form similar to login/register forms */
+#task-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style for inputs within the 'Add Task' form */
+#task-form input, #task-form select {
+    margin: 5px 0;
+}
+
+/* Style for the 'Add Task' button */
+#task-form button {
+    cursor: pointer;
+}
+/* Add here any other styles that are needed for the dashboard */
+.logout-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button {
+    /* existing button styles */
+}
+
+#logout {
+    background-color: #dc3545; /* Bootstrap 'danger' color for logout buttons */
+}
+
+#logout:hover {
+    background-color: #c82333; /* A slightly darker 'danger' color for hover state */
+}
+/* Tasks container styles */
+#today-tasks,
+#upcoming-tasks {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%; /* Give some space for margins */
+    margin: 1%;
+}
+
+/* List styles */
+#today-tasks-list,
+#upcoming-tasks-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Task item styles */
+#today-tasks li,
+#upcoming-tasks li {
+    background: #e7e7e7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Additional styles for the dashboard page */
+#view-completed {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#clear-completed {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

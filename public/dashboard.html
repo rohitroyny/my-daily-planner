@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - My Daily Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logout-container">
+        <button id="logout" class="button">Log Out</button>
+    </div>
+
+    <div class="content">
+        <h1>My Daily Planner Dashboard</h1>
+        <p>Organize Your Day, the Smart Way!</p>
+
+        <div class="tasks-container">
+            <section id="today-tasks">
+                <h2>Today's Tasks</h2>
+                <ul id="today-tasks-list">
+                    <!-- Today's tasks will be listed here -->
+                </ul>
+            </section>
+
+            <section id="upcoming-tasks">
+                <h2>Upcoming Tasks</h2>
+                <ul id="upcoming-tasks-list">
+                    <!-- Upcoming tasks will be listed here -->
+                </ul>
+            </section>
+        </div>
+
+        <section id="task-form">
+            <h2>Add a New Task</h2>
+            <form id="new-task-form">
+                <input type="text" id="task-desc" name="description" placeholder="Task description" required>
+                <select name="category" required>
+                    <option value="">Choose a category</option>
+                    <option value="Home">Home</option>
+                    <option value="Family">Family</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Work">Work</option>
+                    <option value="Business">Business</option>
+                </select>
+                <select name="priority" required>
+                    <option value="">Set priority</option>
+                    <option value="!">!</option>
+                    <option value="!!">!!</option>
+                    <option value="!!!">!!!</option>
+                </select>
+                <input type="date" id="due-date" name="due_date" required>
+                <button type="submit" class="button">Add Task</button>
+            </form>
+        </section>
+        <button id="view-completed" class="button">View Completed</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
