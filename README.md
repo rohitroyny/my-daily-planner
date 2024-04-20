@@ -29,6 +29,7 @@ To get this project up and running locally on your computer:
 1. Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/my-daily-planner.git
+```
 
 2. Navigate to the project directory:
 ```bash
