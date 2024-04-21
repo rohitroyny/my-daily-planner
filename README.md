@@ -15,7 +15,7 @@ My Daily Planner is a web application designed to help users manage their daily 
 `models/`: Business logic and data handling.
 `public/`: Static assets like CSS and client-side JS.
 `db/`: Contains the SQL database file.
-`initialize_db.js`: Script to initialize the database with schema and seed data.
+`initliaze_db.js`: Script to initialize the database with schema and seed data.
 `app.js`: Entry point for the application.
 
 ## Quick Start
