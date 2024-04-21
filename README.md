@@ -39,6 +39,8 @@ cd my-daily-planner
 3. Install the dependencies
 ```bash
 npm install
+npm install express
+npm install express-session
 ```
 
 4. Usage
